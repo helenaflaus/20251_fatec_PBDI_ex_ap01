@@ -29,3 +29,10 @@ def menu():
             b = float(input("Digite o segundo número: "))
             print(f"Resultado: {calculadora.multiplicar(a, b)}")
 
+        elif opcao == "4":
+            a = float(input("Digite o primeiro número: "))
+            b = float(input("Digite o segundo número: "))
+            if b != 0:
+                print(f"Resultado: {calculadora.dividir(a, b)}")
+            else:
+                print("Erro: divisão por zero!")
