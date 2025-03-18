@@ -39,3 +39,6 @@ def menu():
 
         else:
             print("Opção inválida, tente novamente.")
+
+if __name__ == "__main__":
+    menu()
