@@ -36,3 +36,6 @@ def menu():
                 print(f"Resultado: {calculadora.dividir(a, b)}")
             else:
                 print("Erro: divisão por zero!")
+
+        else:
+            print("Opção inválida, tente novamente.")
